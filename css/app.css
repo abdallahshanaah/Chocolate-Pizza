@@ -1,0 +1,50 @@
+main {
+  width: 900px;
+  margin: 0 auto;
+}
+header {
+  width: 900px;
+  margin: 0 auto;
+  height: 100px;
+  align-items: baseline;
+}
+header nav {
+    float: right;
+    display: inline;
+    position: absolute;
+    top: 23px;
+    width: 536px;
+    right: 145px;
+}
+header div{
+    margin: 31px 0 32px 0;
+}
+
+header h1,
+header h5 {
+  display: inline;
+}
+
+
+h1{
+    font-style: italic;
+}
+header img {
+  float: left;
+  clear: both;
+  margin: 14px 2px;
+}
+hr {
+  border-top: 5px groove;
+  
+}
+header nav ul li{
+    display: inline;
+    float: left;
+}
+nav{
+    width: 400px;
+}
+#ul{
+    margin-right: 5px;
+}
