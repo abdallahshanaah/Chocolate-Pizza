@@ -1,4 +1,4 @@
-main {
+/* main {
   width: 900px;
   margin: 0 auto;
 }
@@ -47,4 +47,102 @@ nav{
 }
 #ul{
     margin-right: 5px;
+} */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  margin: 0 10%;
+  border-bottom: solid;
+  padding-bottom: 20px;
+  border-bottom-color: gray;
+  border-bottom-style: inset;
+  border-bottom-width: 20px;
+}
+main {
+  margin: 0 10%;
+  margin-top: 75px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+header:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+li {
+  display: inline-block;
+}
+.img {
+  width: 100%;
+}
+.margin-ul {
+  margin: 0 15px;
+}
+
+.margin-head {
+  margin-top: 30px;
+}
+.h1 {
+  margin: 5px 5px;
+}
+.clear:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.p-margin {
+  margin: 25px 0;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.main-p {
+  font-size: 18px;
+  color: grey;
+}
+.h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: fantasy;
+}
+
+.p {
+  display: inline-block;
+  color: grey;
+}
+
+.posti {
+  position: relative;
+  bottom: 25px;
+}
+
+.h1 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.h5{
+  font-size: 11px;
+  color: gray;
+}
+.up{
+  position: relative;
+  top: -6px;
+  left: 6px;  
+  
+}
+nav{
+  margin-top: 52px;
 }
